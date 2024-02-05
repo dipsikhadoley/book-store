@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(153, 149, 158);
+    font-family: 'Times New Roman';
+}
+.navbar{
+     /* margin: 23px;
+     width: 150px;   */
+    display: flex; 
+  justify-content: space-between;
+  box-shadow: 2px 2px 10px rgba(0,0,0, 0.15);background-color: #fff;
+  
+  
+}
+.logo{
+    display: flex;
+    margin-left: 25px;
+    cursor: pointer;   
+}
+.logo h1{
+    font-size: 35px;
+}
+.logo p{
+    font-size: 38px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+    align-items: center;
+    margin-right: 13px;
+    transition: 3s ease;
+    
+}
+ul li a{
+    margin-inline: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color:black;
+    margin-right: 13px;
+    
+}
+.navbar.contain ul li a:hover{
+    color: rgb(12, 12, 91);
+}
+
+.contain{
+    display: flex;
+    margin-right: 20px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.home-btn h1{
+ font-size: 90px;
+ color: rgb(12, 12, 91);
+}
+.home-btn span{
+    color: rgb(52, 52, 180);
+    
+}
+.home-btn h2{
+    font-size: 60px;
+}
+.home-btn p{
+    font-size: 35px;
+}
+.home-btn button{
+    font-size: 40px;
+    box-sizing: border-box;
+    background-color: black;
+    width: 150px;
+    border-radius: 4px solid rgb(31, 31, 109);
+    cursor: pointer;
+}
+.home-btn button a.red{
+    text-decoration: none;
+    color: white;
+   
+   
+}
+.home img{
+  font-size: 100px;
+  width: 550px;
+  height: 350px;
+}
+.home-btn button a:hover{
+  color:black;
+  background-color: white;
+}
+.about{
+   width: 830px;
+   height: 300px;
+   position: relative;
+   margin: auto;
+   overflow: hidden;
+  
+}
+
+
+.abt-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  transition:all 1s ease ;
+}
+.head{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-top: 25px;
+}
+.abt-img img{
+   width: 190px;
+   height: 270px;
+   margin-inline: 20px;
+   
+}
+
+.btn-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+    
+    margin-left: 35px;
+}
+.btn img{
+    align-items: center;
+    margin-inline: 20px;
+    width: 400px;
+    height: 300px;
+}
+.btn a{
+    text-decoration: none ;
+    font-size: 25px;
+    margin-top: 25px;
+    width:80px ;
+    height: 40px;
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+form{
+    text-align: center;
+    background-color: rgb(106, 82, 129);
+    /* display: flex;
+    justify-content: center; */
+    width: 400px;
+    padding:22px ;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+form input{
+    width: 90%;
+   font-size: 20px;
+  padding: 11px; 
+  margin-top: 22px;
+  border: 1px solid black;
+}
+form textarea{
+    width: 90%;
+    font-size: 20px;
+   padding: 11px; 
+   margin-top: 22px;
+   border: 1px solid black;}   
+form select{
+    width: 90%;
+    font-size: 22px;
+    padding: 11px;
+    margin: 22px;
+    border: 1px solid black;  
+}
+form button{
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+footer{
+    display: flex;
+justify-content: space-between;
+padding: 66px;
+ margin: auto;
+ margin-top: 44px;
+ background-color: rgb(35, 35, 201);
+ color: #fff;
+ font-size: 22px;
+ 
+}
+footer .card{
+    margin-inline: 20px;
+}
+footer .card h1{
+    color: black;
+}
+footer .card h2{
+    color: black;
+} 
+
+
+
+
+
+
+
+
+
+
